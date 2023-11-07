@@ -1,11 +1,12 @@
+import UserForms from '../components/UserForms/UserForms';
 
 
 const App = () => {
 
   return (
-      <div className="container">
-          Hello
-      </div>
+      <>
+          <UserForms/>
+      </>
   );
 };
 
