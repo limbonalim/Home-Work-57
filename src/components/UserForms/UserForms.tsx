@@ -32,10 +32,11 @@ const UserForms: React.FC<Props> = ({onSubmit}) => {
   return (
     <form onSubmit={onFormSubmit} className="col-5">
       <div className="mb-3">
-        <label htmlFor="name" className="form-label">Your name:
+        <label htmlFor="name" className="form-label">Name:
         </label>
         <input
           required={true}
+          autoFocus={true}
           className="form-control"
           placeholder="Jhon Doe"
           name="name"
@@ -58,7 +59,7 @@ const UserForms: React.FC<Props> = ({onSubmit}) => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="role" className="form-label">Select your role:</label>
+        <label htmlFor="role" className="form-label">Select role:</label>
         <select
           id="role"
           name="role"
