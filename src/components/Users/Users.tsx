@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Users = () => {
+interface Props extends React.PropsWithChildren {
+
+}
+
+const Users: React.FC<Props> = ({children}) => {
   return (
     <div>
-      
+      {children}
     </div>
   );
 };
