@@ -6,7 +6,7 @@ interface Props extends React.PropsWithChildren {
 
 const Users: React.FC<Props> = ({children}) => {
   return (
-    <div>
+    <div className="col-6">
       {children}
     </div>
   );

@@ -30,7 +30,7 @@ const UserForms: React.FC<Props> = ({onSubmit}) => {
   };
 
   return (
-    <form onSubmit={onFormSubmit}>
+    <form onSubmit={onFormSubmit} className="col-5">
       <div className="mb-3">
         <label htmlFor="name" className="form-label">Your name:
         </label>
